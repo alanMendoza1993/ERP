@@ -1,0 +1,218 @@
+#contenedor {
+    display: flex;
+    margin-top:1em;
+    height: 100vh;
+}
+
+.contenido {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 100% !important;
+}
+
+.dato p {
+    margin-bottom: 0;
+}
+
+#filtros {
+    position: absolute;
+    right: 0;
+    width: 10em;
+    height: calc( 100% - 2.5em);
+    border-left: 1px solid #D8D8D8;
+}
+
+#seleccion {
+    padding: 1em;
+    position: relative;
+    height: 1.6em;
+    margin-top: 1em;
+}
+
+#seleccion p {
+    position: absolute;
+    color: rgb(4, 148, 231);
+    font-weight: 600;
+    top: .1em;
+    left: 2.6em;
+}
+
+#inbuscador {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: .4em;
+    border: none;
+    border-radius: .1em;
+    background: url("../../../assets/imagenes/loupe_78956.png");
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+    background-position-y: center;
+    background-position-x: .2em;
+    background-color: white;
+    padding-left: 1.6em;
+}
+
+
+/* #inbuscador:before{
+    content: '';
+width: 1.5em;
+height: 1.5em;
+background-color: aqua;
+position: absolute;
+
+left: 0px;
+} */
+
+#titulo {
+    width: 100%;
+    /* margin-right: 10em; */
+    height: 2.5em;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid #D8D8D8;
+    position: relative;
+}
+
+#mes {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 2em;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+#seccion {
+    width: 100%;
+}
+
+#buscador {
+    height: 2.5em;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid #D8D8D8;
+}
+
+#titulo p {
+    font-weight: 700;
+    margin: 0 .3em;
+    padding-top: .1em;
+    font-size: 1.3em;
+}
+
+#mes p {
+    color: rgb(165, 164, 164);
+    font-size: .8em;
+    font-weight: 700;
+    padding: .5em;
+}
+
+.factura {
+    height: 8em;
+    display: flex;
+    width: 100%;
+}
+
+.check {
+    border-right: .5em solid green;
+    height: 100%;
+}
+
+.checkwar {
+    border-right: .5em solid rgb(238, 164, 5);
+    height: 100%;
+}
+
+.checkdarck {
+    border-right: .5em solid rgb(97, 97, 97);
+    height: 100%;
+}
+
+.checkyell {
+    border-right: .5em solid rgb(241, 217, 2);
+    height: 100%;
+}
+
+.btn-yell {
+    background-color: rgb(241, 217, 2);
+}
+
+.checkdan {
+    border-right: .5em solid rgb(223, 1, 1);
+    height: 100%;
+}
+
+.infactura {
+    width: 1.8em;
+    height: 1.2em;
+    margin-top: 3.2em;
+    padding-right: .6em;
+}
+
+.facon {
+    width: 100%;
+}
+
+#contfacturas {
+    width: 100% ;
+    overflow: auto;
+    overflow-x: hidden;
+    height: calc(100% - 11em);
+}
+#btn-filters{
+    position: absolute;
+    right: 10em;
+    bottom: .5em;
+    
+/*     margin-top: -2em;
+ */}
+.folio {
+    font-weight: 700;
+    padding: .5em;
+    font-size: 1.5em;
+    width: 25%;
+    min-width: 7.3em;
+}
+
+.tdato {
+    font-weight: 600;
+}
+
+.botones {
+    width: 29%;
+    position: relative;
+}
+
+.dato {
+    display: flex;
+}
+
+.centrada {
+    width: calc(100% - 4em);
+    margin: 2em;
+    min-width: 50em;
+}
+
+#intodos {
+    width: 1.2em;
+    height: 1.2em;
+    position: absolute;
+    top: .3em;
+}
+
+.datos {
+    margin-left: 1em;
+    margin-right: 3em;
+    width: 40%;
+    min-width: 22em;
+}
+
+.boton {
+    min-width: 7.5em;
+    position: absolute;
+    top: 50%;
+    right: 2em;
+    transform: translateY( -50%);
+}
+
+.btn-war {
+    background-color: rgb(238, 164, 5);
+    color: white;
+}

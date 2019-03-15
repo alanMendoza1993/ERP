@@ -1,0 +1,70 @@
+#cabecera{
+    background-color: white;
+    height: 3em;
+    
+    box-shadow: 0px 2px rgb(134, 133, 133);
+    -webkit-box-shadow: 0 5px 5px -5px #777;
+    -moz-box-shadow: 0 5px 5px -5px #777;
+    box-shadow: 0 5px 5px -5px #777;
+    
+}
+#logo{
+    background-color: gray;
+    width: 15em;
+}
+#logo_cabecera{
+    height: 3em;
+    margin: .2em;
+    margin-left: 1.5em;
+}
+#nav_side{
+    background-image: linear-gradient(-20deg,  rgba(5, 44, 83, 1), rgb(17, 82, 148), rgba(20, 80, 140, 1), rgba(5, 44, 83, 1));
+    position: absolute;
+    width: 15em;
+    height: calc( 100% - 2.5em) ;
+    color: white;
+}
+#edit{
+    text-align: center;
+}
+.fas {
+    margin-right: .5em;
+    margin-left: .5em;
+    height: .2em;
+}
+figure{
+    margin-bottom: 0;
+}
+#top-btn{
+    position: fixed;
+    bottom: 0;
+    width: 15em;
+}
+#top-btn li{
+    float: right;
+    margin: 0em !important;
+}
+#nav_side li{
+    margin: 1em;
+    list-style: none;
+}
+#nav_side li:hover{    
+    background: white;
+    color: black;
+}
+
+#imagen_nav{
+    width: 8em;
+    margin: 3em;
+    border-radius: 4em;
+}
+li{
+    cursor: pointer;
+}
+#contenedor{
+    display: flex;
+}
+#contenido{
+    margin-left: 15em;
+    width: 100%;
+}

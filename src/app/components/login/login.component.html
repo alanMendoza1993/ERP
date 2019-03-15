@@ -1,0 +1,26 @@
+<div class="fondoLogin"><p>
+  <div id="contenido">
+  <div class="contLogo">
+    <img id="logo" src="../../../assets/imagenes/Logotipo-Steel-complements-2.png" alt="">
+  </div>
+  <form class="loger" #f="ngForm" (submit)="signIn()">
+    <div class="contInput">
+      <p id="mensaje">Acceso a portal de proveedores</p>
+      </div>
+    
+    <div class="contInput" >
+    <input type="text" class="inlog" name="email" [(ngModel)]="email" placeholder="E-Mail" required>
+    </div>
+    <div class="contInput">
+    <input type="text" class="inlog" name="password" [(ngModel)]="password" placeholder="Contraseña" required>
+  </div>
+  <div class="contInput">
+    <button id="botonInicio" type="submit">Iniciar Sesión</button>
+  </div>
+  <div class="contInput">
+    <p class="olvidasteC">¿Olvidaste tu contraseña?</p>
+  </div>
+
+</form>
+</div>
+</div>

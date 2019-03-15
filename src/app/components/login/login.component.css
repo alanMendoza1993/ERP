@@ -1,0 +1,72 @@
+.fondoLogin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url('../../../assets/imagenes/fondo.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    align-items: center;
+}
+#logo{
+    width: 15em;
+    height: 5em;
+    
+}
+.contLogo{
+    display: flex;
+    justify-content: center;
+}
+.contenido{
+    display: block;
+}
+.loger{
+    background-color: rgba(255, 255, 255, .5);
+    width: 22em;
+    display: block;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.loger #mensaje {
+position: relative;
+    margin: .6em;
+    margin-top: 1em;
+    text-align: center;
+}
+.contInput{
+    display:flex;
+    justify-content: center;
+}
+.loger .inlog {
+    width: 85%;
+    margin: .6em auto;
+    
+    height: 2.5em;
+    padding-left: 1em;
+    font-weight: 600;
+    
+}
+:-ms-input-placeholder { color:black; }
+::-webkit-input-placeholder { color: black; }
+
+#botonInicio{
+    background-color: black;
+    color: white;
+    width: calc(85% + 1.2em);
+    margin: .6em;
+    border: none;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.olvidasteC {
+    color: rgb(3, 3, 170);
+    margin: 1em;
+    font-weight: 500; 
+}

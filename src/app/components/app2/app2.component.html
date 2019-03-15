@@ -1,0 +1,59 @@
+<div id="cabecera">
+    <figure id="logo">
+        <img src="../../../assets/imagenes/Logotipo-Steel-complements-2.png" id="logo_cabecera" alt="">
+    </figure>
+    sadsd
+</div>
+<div id="contenedor">
+
+    <div id="nav_side">
+        <figure>
+            <img id="imagen_nav" src="../../../assets/imagenes/vasster.png" alt="">
+        </figure>
+        <!-- <p id="edit">Editar perfil</p> -->
+        <ul>
+            <li [routerLink]="['/facturas']"><i class="fas fa-home"></i>Inicio</li>
+            <li [routerLink]="['/profile']"><i class="fas fa-user"></i>Mi Perfil</li>
+            <!-- <div class="dropdown">
+                <li data-toggle="dropdown"><i class="fas fa-business-time"></i>Status</li>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Subir Facturas</a>
+                    <a class="dropdown-item" href="#">Esperando O.C.</a>
+                    <a class="dropdown-item" href="#">En Proceso de pago</a>
+                    <a class="dropdown-item" href="#">Rechazadas</a>
+                    <a class="dropdown-item" href="#">Pagadas</a>
+                </div>
+            </div> -->
+            <li [routerLink]="['/notifications']"><i class="fas fa-comments"></i>Notificaciones</li>
+            <li [routerLink]="['/buzon']"><i class="fas fa-info-circle"></i>Quejas y sugerencias</li>
+        </ul>
+        <ul id="top-btn">
+            <li class="btn btn-info" title="Informacion"  data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-info-circle"></i></li>
+            <li class="btn btn-danger" title="Cerrar sesion"><i class="fas fa-power-off"></i></li>
+        </ul>
+    </div>
+    <div id="contenido">
+
+        <router-outlet></router-outlet>
+    </div>
+</div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Ayuda</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Descargar Manual <a class="btn btn-success"><span class="fa fa-download"></span></a>
+            </div>
+            <div class="modal-footer">
+              
+            </div>
+          </div>
+        </div>
+      </div>
